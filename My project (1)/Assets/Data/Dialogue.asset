@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3023007d1c5356a48835c21a9c6fbd3e, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Data/Data.xlsx
+  WorksheetName: Dialogue
+  dataArray:
+  - id: 1
+    character: 10101
+    position: 0
+    bg: Dungeon
+    dialogue: "\uC81C.. \uBAA9\uC18C\uB9AC\uAC00.. \uB4E4\uB9AC\uC2DC\uB098\uC694..?"
+  - id: 2
+    character: 10102
+    position: 1
+    bg: Dungeon
+    dialogue: "\uBAA8\uB9AC\uC548\uC744 \uBBFF\uB098?"
+  - id: 3
+    character: 10103
+    position: 2
+    bg: Dungeon
+    dialogue: "\uB0B4 \uC120\uD0DD\uC5D0 \uCC45\uC784\uC744 \uC838\uC57C \uD574"
+  - id: 4
+    character: 10104
+    position: 3
+    bg: Dungeon
+    dialogue: "\uB9C8\uB098\uD5C8\uBE0C\uB97C \uC918\u2026"
+  - id: 5
+    character: 10105
+    position: 4
+    bg: Dungeon
+    dialogue: "\uB9C8\uB9AC? \uC775\uC219\uD55C \uC774\uB984\uC774\uB124\uC694"
